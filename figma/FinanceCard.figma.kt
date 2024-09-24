@@ -2,9 +2,6 @@ import androidx.compose.runtime.Composable
 import com.figma.code.connect.FigmaConnect
 import com.figma.code.connect.FigmaProperty
 import com.figma.code.connect.FigmaType
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.rounded.Cases
-import androidx.compose.material.icons.rounded.Wallet
 import kotlin.String
 
 @FigmaConnect("https://www.figma.com/design/UWGyhZEOlo3YfsEuHlFGJa/Jetpack-Compose---Code-Connect-Demo-%5BTesting%5D?node-id=5-94&t=V01x1D5VBXtUAEwt-4")

@@ -1,10 +1,7 @@
 import androidx.compose.runtime.Composable
-import com.figma.code.connect.Figma
 import com.figma.code.connect.FigmaConnect
 import com.figma.code.connect.FigmaProperty
 import com.figma.code.connect.FigmaType
-import com.figma.code.connect.FigmaVariant
-import com.figma.code.connect.FigmaInstance
 import kotlin.String
 
 

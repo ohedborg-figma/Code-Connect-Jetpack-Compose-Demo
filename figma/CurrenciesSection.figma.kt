@@ -5,6 +5,9 @@ public class Currenciesdoc {
     @FigmaChildren("currency")
     val currency: @Composable () -> Unit = {}
 
+    @FigmaProperty(FigmaType.Instance, "icon")
+    val icon: @Composable () -> Unit = {}
+
     @Composable
     fun CurrenciesSection() {
         var isVisible by remember { mutableStateOf(false) }
@@ -44,7 +47,7 @@ public class Currenciesdoc {
                     ) {
                         Icon(
                             modifier = Modifier.size(25.dp),
-                            imageVector = iconState,
+                            imageVector = icon,
                             contentDescription = "Currencies",
                             tint = Color.Black
                         )
